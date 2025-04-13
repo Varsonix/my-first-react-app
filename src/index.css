@@ -54,6 +54,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 2; /* Removes default padding */
+  margin: 2; /* Removes default margin */
+}
+
+li {
+  display: flex; /* Optional: Aligns content horizontally */
+  align-items: center; /* Optional: Centers content vertically */
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

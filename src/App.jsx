@@ -1,14 +1,12 @@
-import './App.css'
-import AnimalsList from './components/AnimalsList'
-import PackingList from './components/Lessons/PackingList'
-import DrinkList from './components/Lessons/DrinkList'
+//import './App.css'
+import List from './components/Lessons/Exercises/SplittingList/SplittingList'
+import RecipeList from './components/Lessons/Exercises/NestedLists/RecipeList'
 
 function App() {
 
   return (
     <div>
-      <AnimalsList />
-      <DrinkList />
+      <RecipeList />
     </div>
   )
 }
